@@ -1,0 +1,91 @@
+*{
+    cursor: url(kursor.png), auto !important;
+    }
+body{
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+#patokan{
+        background-color: black;
+        width:1000px;
+        margin: auto;
+        overflow: hidden;
+}
+#list ul #active{
+    background: #0d2654; 
+}
+#list{
+    width: 1000px;
+    height: 50px;
+    background: white;
+    margin: 0px;
+    padding: 0px;
+}
+#list ul{
+    margin: 0px;
+    padding: 0px;
+}
+#list ul li{
+    display: inline;
+    margin-left: 30px;
+    line-height: 50px;
+    border:1px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: black;
+}
+#patokan #isi button{
+    background: red;
+    border-radius: 10px;
+    border:1px solid white;
+    padding: 2px 5px;
+    transition: padding 8ms;
+    -webkit-transition: padding 8ms;
+}
+#patokan #isi button:hover{
+    padding: 2px 7px;
+}
+#list ul li a{
+    text-decoration: none;
+    color: white;
+}
+#list ul li:hover{
+    background: #0d2654;
+}
+#patokan #isi a{
+        text-decoration: none;
+        color: white;
+}
+#isi{
+    color: white;
+    padding: 10px;
+}
+
+#isi p{
+    text-align: justify;
+}
+audio{
+    width: 900px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+#isi #gambar img{
+    width: 300px;
+    height: auto;
+    transition: width 2s;
+    -webkit-transition: width 1s;
+}
+#isi #gambar:hover img{
+    width: 350px;
+
+}
+#patokan #header img{
+    width: 1000px;
+    height: 200px;
+    transition: height 2s;
+    -webkit-transition: height 1s;
+}
+#patokan #header img:hover{
+    height: 210px;
+}
